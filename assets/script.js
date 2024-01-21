@@ -2,7 +2,9 @@ function iplus(n) {
     let mae = document.getElementsByClassName('dmother')[n];
     let icon = document.getElementsByClassName('plusicon')[n];
     
-    if(mae.lastElementChild.style.display == 'none') {
+    let escondido = mae.lastElementChild.style.display === '' || mae.lastElementChild.style.display === 'none'
+
+    if(escondido) {
         mae.lastElementChild.style.display = 'block'
         icon.src = 'assets/images/icon-minus.svg'
     } else {

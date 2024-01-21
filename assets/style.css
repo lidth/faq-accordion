@@ -86,8 +86,8 @@ div.itens h2:hover {
 div.sub-itens {
     text-align: justify;
     color: #9F9AA0;
-    display: none;
     margin: 0 30px;
+    display: none;
     padding-bottom: 20px;
 }
 
